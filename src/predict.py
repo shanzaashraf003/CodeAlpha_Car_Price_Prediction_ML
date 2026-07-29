@@ -1,8 +1,12 @@
+from pathlib import Path
 import joblib
 import pandas as pd
 
-# Load model
-model = joblib.load("../models/car_price_model.pkl")
+# Project root
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Load trained model
+model = joblib.load(BASE_DIR / "models" / "car_price_model.pkl")
 
 # Example input
 sample = pd.DataFrame({
