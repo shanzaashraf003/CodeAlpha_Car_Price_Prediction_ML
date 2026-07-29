@@ -198,13 +198,13 @@ Random Forest feature importance was analysed to determine which variables contr
 
 The generated visualization is available in:
 
-```
+## 📊 Feature Importance
+
 ![Feature Importance](outputs/figures/feature_importance.png)
 
-## Predicted vs Actual
+## 🎯 Predicted vs Actual
 
 ![Predicted vs Actual](outputs/figures/predicted_vs_actual.png)
-```
 
 ---
 
